@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/serfoll/react-parcel-boilerplate.git"
   },
   "keywords": [],
   "author": "Sergio Follyvi",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/serfoll/react-parcel-boilerplate",
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
     "@types/react": "^18.0.9",

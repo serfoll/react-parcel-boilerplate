@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import normalize from 'normalize.css';
-import Colors from './Colors';
+
 export default createGlobalStyle`
   ${normalize}
 
@@ -17,11 +17,6 @@ export default createGlobalStyle`
   body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    background-color: hsl(216, 12%, 8%);
-    color: hsl(0, 0%, 100%);
-  }
-  p{
-    font-size: 15px;
-    color: ${Colors['light-grey']}
+    background-color: #263238;
   }
 `;

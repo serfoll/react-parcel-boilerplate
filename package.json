@@ -2,10 +2,9 @@
   "name": "react-boiler-plate",
   "version": "1.0.0",
   "description": "React parcel boilerplate",
-  "main": "src/index.js",
   "scripts": {
     "start": "parcel src/index.html --port 3005 --open",
-    "deploy:src": "parcel build src/index.html --public-url ./"
+    "deploy:src": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -27,12 +26,14 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@swc/helpers": "^0.3.17",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "parcel": "^2.6.0",
+    "postcss-nested": "^5.0.6",
     "prettier": "^2.6.2",
     "process": "^0.11.10"
   }

@@ -1,14 +1,16 @@
 //libraries
 import React from 'react';
-import reactDOM from 'react-dom';
 import styled from 'styled-components';
 import { keyframes } from 'styled-components';
 //icons
 import { FaReact } from 'react-icons/fa';
 //custom components
 import GlobalStyle from './components/GlobalStyle';
+import { createRoot } from 'react-dom/client';
+
 //DOM el
-const rootEl = document.getElementById('root');
+const container = document.getElementById('root');
+const root = createRoot(container);
 
 const infiniteSpin = keyframes`
   from {
@@ -48,4 +50,4 @@ const App = () => {
   );
 };
 
-reactDOM.render(<App />, rootEl);
+root.render(<App />);
